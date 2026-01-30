@@ -1,5 +1,3 @@
-https://c.codeutility.io/pt/
-
 #include <stdio.h>
 #include <stdlib.h>
 
