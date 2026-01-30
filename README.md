@@ -4,4 +4,7 @@ Este projeto consiste no desenvolvimento de um código em linguagem C com o obje
 
 A implementação tem como finalidade reforçar conceitos fundamentais da linguagem C, como estruturas condicionais, laços de repetição e manipulação de dados, aplicados em um contexto prático e lógico.
 
-![Texto alternativo](https://raw.githubusercontent.com/fabiodtna/Desafio-Xadrez-/refs/heads/main/jogo01.png)
+<div style="display: flex; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/fabiodtna/Desafio-Xadrez-/refs/heads/main/jogo01.png" width="200">
+  <img src="https://raw.githubusercontent.com/fabiodtna/Desafio-Xadrez-/refs/heads/main/jogo02.png" width="200">
+</div>
