@@ -36,15 +36,4 @@ O jogo permite:
 - Matrizes para representar o tabuleiro  
 - Funções para modularizar ações do jogo
 
----
-
-## 🧩 Como Jogar
-
-1. Compile o código com um compilador C (ex: `gcc xadrez.c -o xadrez`)  
-2. Execute o programa (`./xadrez` no Linux/macOS ou `xadrez.exe` no Windows)  
-3. Escolha uma peça para movimentar  
-4. Siga as instruções do menu para realizar os movimentos  
-5. O tabuleiro será atualizado após cada ação  
-6. Digite `1` para sair do jogo ou `0` para continuar jogando  
-
 
