@@ -1,11 +1,50 @@
-## Simulação de Movimentos de Peças de Xadrez em C
+# ♟ Jogo de Xadrez Simples em C
 
-Este projeto consiste no desenvolvimento de um código em linguagem C com o objetivo de simular **apenas os movimentos simples** das peças **dama, bispo e torre** do jogo de xadrez. O programa limitando-se a demonstrar os movimentos básicos dessas peças no tabuleiro, sem validação de jogadas ou verificação de condições especiais.
+## 📱 Sobre o Projeto
 
-A implementação tem como finalidade reforçar conceitos fundamentais da linguagem C, como estruturas condicionais, laços de repetição e manipulação de dados, aplicados em um contexto prático e lógico.
+Este é um **jogo de xadrez simplificado** desenvolvido em **C**, criado como **desafio acadêmico na faculdade Estácio**, durante o curso de **Ciência da Computação**.  
 
-<div align="center" >
-  <img src="https://raw.githubusercontent.com/fabiodtna/Desafio-Xadrez-/refs/heads/main/jogo01.png" width="300" height="300">
-   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/fabiodtna/Desafio-Xadrez-/refs/heads/main/jogo02.png" width="300" height="300">
-</div>
+O projeto permite ao usuário movimentar três tipos de peças: **Torre, Bispo e Rainha**, simulando o tabuleiro de xadrez no console.  
+O objetivo principal foi **praticar lógica de programação, manipulação de matrizes e criação de menus interativos em C**.
+
+⚠️ Este projeto é focado em aprendizado e simulação de movimentos de peças.  
+Não implementa todas as regras completas do xadrez, como xeque-mate ou jogadas complexas.
+
+---
+
+## 🎯 Funcionalidades
+
+O jogo permite:
+
+- Escolher uma peça para movimentar: Torre, Bispo ou Rainha  
+- Visualizar um **tabuleiro 8x8** no console  
+- Executar movimentos básicos de cada peça:  
+  - Torre: horizontal e vertical  
+  - Bispo: diagonal esquerda/direita  
+  - Rainha: horizontal, vertical e diagonal  
+- Escolher movimentos através de um menu interativo  
+- Repetir movimentos até o usuário decidir sair do jogo
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- Linguagem C  
+- Console/Terminal para visualização do tabuleiro  
+- Estruturas de repetição (`do-while`, `for`)  
+- Estruturas de decisão (`switch-case`)  
+- Matrizes para representar o tabuleiro  
+- Funções para modularizar ações do jogo
+
+---
+
+## 🧩 Como Jogar
+
+1. Compile o código com um compilador C (ex: `gcc xadrez.c -o xadrez`)  
+2. Execute o programa (`./xadrez` no Linux/macOS ou `xadrez.exe` no Windows)  
+3. Escolha uma peça para movimentar  
+4. Siga as instruções do menu para realizar os movimentos  
+5. O tabuleiro será atualizado após cada ação  
+6. Digite `1` para sair do jogo ou `0` para continuar jogando  
+
+
